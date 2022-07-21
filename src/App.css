@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.App .column {
+  width: 40%;
+}
+
+.droppable-col {
+  width: 100%;
+  background-color: lightgray;
+  padding: 10px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: 10px;
+  background-color: lightgray;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  
+}
+
+.item.dragging {
+  background-color: lightgreen;
+}
+
+.button{
+  width:50%;
+    margin-left:25%;
+    margin-right:25%
+    
+}
